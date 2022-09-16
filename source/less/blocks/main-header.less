@@ -1,3 +1,25 @@
 .main-header {
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
+}
+
+@media (min-width: @tablet-width) {
+    .main-header {
+      display: flex;
+      justify-content: space-between;
+      width: 768px;
+      margin: 0 auto;
+    }
+}
+
+@media (min-width: @desktop-width) {
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;  
+    }
 }
